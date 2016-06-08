@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Show tutorial"; ObjectID = "10m-Yu-hqw"; */
+"10m-Yu-hqw.text" = "显示教程";
+
+/* Class = "UIBarButtonItem"; title = "⚙"; ObjectID = "Ia5-QC-tuq"; */
+"Ia5-QC-tuq.title" = "⚙";
+
+/* Class = "UISegmentedControl"; KZd-Re-2E3.segmentTitles[0] = "Yes"; ObjectID = "KZd-Re-2E3"; */
+"KZd-Re-2E3.segmentTitles[0]" = "是";
+
+/* Class = "UISegmentedControl"; KZd-Re-2E3.segmentTitles[1] = "No"; ObjectID = "KZd-Re-2E3"; */
+"KZd-Re-2E3.segmentTitles[1]" = "否";
+
+/* Class = "UINavigationItem"; title = "Score: 0    Time: 00:00"; ObjectID = "Q6K-zK-nYD"; */
+"Q6K-zK-nYD.title" = "移动: 0    时间: 00:00";
+
+/* Class = "UILabel"; text = "Show hints"; ObjectID = "QYi-G7-taB"; */
+"QYi-G7-taB.text" = "显示提示";
+
+/* Class = "UIBarButtonItem"; title = "New Game"; ObjectID = "Qlq-p6-SwW"; */
+"Qlq-p6-SwW.title" = "新游戏";
+
+/* Class = "UISegmentedControl"; a8X-iQ-NqM.segmentTitles[0] = "Yes"; ObjectID = "a8X-iQ-NqM"; */
+"a8X-iQ-NqM.segmentTitles[0]" = "是";
+
+/* Class = "UISegmentedControl"; a8X-iQ-NqM.segmentTitles[1] = "No"; ObjectID = "a8X-iQ-NqM"; */
+"a8X-iQ-NqM.segmentTitles[1]" = "否";
+
+/* Class = "UISegmentedControl"; bXT-Va-Z1V.segmentTitles[0] = "On"; ObjectID = "bXT-Va-Z1V"; */
+"bXT-Va-Z1V.segmentTitles[0]" = "开";
+
+/* Class = "UISegmentedControl"; bXT-Va-Z1V.segmentTitles[1] = "Off"; ObjectID = "bXT-Va-Z1V"; */
+"bXT-Va-Z1V.segmentTitles[1]" = "关";
+
+/* Class = "UILabel"; text = "Number of suits"; ObjectID = "f37-CC-AtD"; */
+"f37-CC-AtD.text" = "花色数量";
+
+/* Class = "UILabel"; text = "Sound effects"; ObjectID = "k6n-ug-xqJ"; */
+"k6n-ug-xqJ.text" = "音效";
+
+/* Class = "UISegmentedControl"; v1c-W8-5lN.segmentTitles[0] = "1 Suit"; ObjectID = "v1c-W8-5lN"; */
+"v1c-W8-5lN.segmentTitles[0]" = "1种花色";
+
+/* Class = "UISegmentedControl"; v1c-W8-5lN.segmentTitles[1] = "2 Suits"; ObjectID = "v1c-W8-5lN"; */
+"v1c-W8-5lN.segmentTitles[1]" = "2种花色";
+
+/* Class = "UISegmentedControl"; v1c-W8-5lN.segmentTitles[2] = "4 Suits"; ObjectID = "v1c-W8-5lN"; */
+"v1c-W8-5lN.segmentTitles[2]" = "4种花色";

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fbO-3M-gzo">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Moves: 0    Time: 00:00-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SpiderSolitaireViewController" customModule="Spider_Solitaire" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="69Z-rQ-aH0" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="20" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="69Z-rQ-aH0" secondAttribute="height" multiplier="2:3" id="SUl-Uj-Evr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-KR-vfX" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="77" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gnk-m6-7z4" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="134" y="72" width="48" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OKP-5P-wAx" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="190" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88d-7b-btY" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="247" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="6" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TNz-XZ-5bW" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="361" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ag7-Kz-C3Z" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="418" y="72" width="48" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="8" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpY-oA-Zfj" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="474" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="9" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ueV-DI-vOb" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="531" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mno-h6-frf" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="531" y="519" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdw-8G-0A0" customClass="PokerView" customModule="Spider_Solitaire" customModuleProvider="target">
+                                <rect key="frame" x="304" y="72" width="49" height="73"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="pokerImageName" value="CardSpace"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDI-0T-GBu" customClass="GADBannerView">
+                                <rect key="frame" x="140" y="550" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="vMG-RP-yYd"/>
+                                    <constraint firstAttribute="height" constant="50" id="ylv-8R-dEa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="88d-7b-btY" firstAttribute="leading" secondItem="OKP-5P-wAx" secondAttribute="trailing" constant="8" symbolic="YES" id="1yf-Un-n45"/>
+                            <constraint firstItem="TNz-XZ-5bW" firstAttribute="leading" secondItem="pdw-8G-0A0" secondAttribute="trailing" constant="8" symbolic="YES" id="2FA-eR-xWh"/>
+                            <constraint firstItem="88d-7b-btY" firstAttribute="centerY" secondItem="pdw-8G-0A0" secondAttribute="centerY" id="44Z-oW-2tP"/>
+                            <constraint firstItem="ueV-DI-vOb" firstAttribute="leading" secondItem="hpY-oA-Zfj" secondAttribute="trailing" constant="8" symbolic="YES" id="7Bk-iQ-LA7"/>
+                            <constraint firstItem="gnk-m6-7z4" firstAttribute="width" secondItem="OKP-5P-wAx" secondAttribute="width" id="7sF-2j-6xE"/>
+                            <constraint firstItem="gnk-m6-7z4" firstAttribute="centerY" secondItem="OKP-5P-wAx" secondAttribute="centerY" id="AAa-87-eRH"/>
+                            <constraint firstItem="gnk-m6-7z4" firstAttribute="height" secondItem="OKP-5P-wAx" secondAttribute="height" id="B7X-Qm-Kvl"/>
+                            <constraint firstItem="69Z-rQ-aH0" firstAttribute="centerY" secondItem="CD2-KR-vfX" secondAttribute="centerY" id="EK2-r7-JFm"/>
+                            <constraint firstItem="TNz-XZ-5bW" firstAttribute="width" secondItem="ag7-Kz-C3Z" secondAttribute="width" id="H0r-BW-hYf"/>
+                            <constraint firstItem="hpY-oA-Zfj" firstAttribute="leading" secondItem="ag7-Kz-C3Z" secondAttribute="trailing" constant="8" symbolic="YES" id="HSd-HO-i6h"/>
+                            <constraint firstItem="CD2-KR-vfX" firstAttribute="leading" secondItem="69Z-rQ-aH0" secondAttribute="trailing" constant="8" symbolic="YES" id="JnE-kJ-6Ss"/>
+                            <constraint firstItem="KDI-0T-GBu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LAY-xs-WtO"/>
+                            <constraint firstItem="ag7-Kz-C3Z" firstAttribute="centerY" secondItem="hpY-oA-Zfj" secondAttribute="centerY" id="LH5-hJ-Mas"/>
+                            <constraint firstItem="88d-7b-btY" firstAttribute="width" secondItem="pdw-8G-0A0" secondAttribute="width" id="LJz-Vm-ZtK"/>
+                            <constraint firstItem="88d-7b-btY" firstAttribute="height" secondItem="pdw-8G-0A0" secondAttribute="height" id="LeB-Cv-jPF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KDI-0T-GBu" secondAttribute="bottom" id="Loc-hu-CCH"/>
+                            <constraint firstItem="CD2-KR-vfX" firstAttribute="height" secondItem="gnk-m6-7z4" secondAttribute="height" id="NfG-Zp-9El"/>
+                            <constraint firstItem="ag7-Kz-C3Z" firstAttribute="height" secondItem="hpY-oA-Zfj" secondAttribute="height" id="Nke-zp-8qc"/>
+                            <constraint firstItem="mno-h6-frf" firstAttribute="height" secondItem="ueV-DI-vOb" secondAttribute="height" id="NyB-Eo-BO6"/>
+                            <constraint firstItem="mno-h6-frf" firstAttribute="width" secondItem="ueV-DI-vOb" secondAttribute="width" id="O06-TF-BPD"/>
+                            <constraint firstItem="hpY-oA-Zfj" firstAttribute="width" secondItem="ueV-DI-vOb" secondAttribute="width" id="V69-9m-2Is"/>
+                            <constraint firstItem="OKP-5P-wAx" firstAttribute="leading" secondItem="gnk-m6-7z4" secondAttribute="trailing" constant="8" symbolic="YES" id="Vbh-t3-lMX"/>
+                            <constraint firstItem="pdw-8G-0A0" firstAttribute="height" secondItem="TNz-XZ-5bW" secondAttribute="height" id="Vul-AD-TLT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ueV-DI-vOb" secondAttribute="trailing" id="Wce-pU-ulQ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="69Z-rQ-aH0" secondAttribute="leading" id="Wuo-7v-wEY"/>
+                            <constraint firstItem="KDI-0T-GBu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="Zaw-FZ-Ube"/>
+                            <constraint firstItem="ag7-Kz-C3Z" firstAttribute="width" secondItem="hpY-oA-Zfj" secondAttribute="width" id="a3l-07-4FR"/>
+                            <constraint firstItem="OKP-5P-wAx" firstAttribute="width" secondItem="88d-7b-btY" secondAttribute="width" id="c9A-g2-p7L"/>
+                            <constraint firstItem="ag7-Kz-C3Z" firstAttribute="leading" secondItem="TNz-XZ-5bW" secondAttribute="trailing" constant="8" symbolic="YES" id="cvn-Cp-7Qx"/>
+                            <constraint firstItem="gnk-m6-7z4" firstAttribute="leading" secondItem="CD2-KR-vfX" secondAttribute="trailing" constant="8" symbolic="YES" id="dVA-Dn-Mf1"/>
+                            <constraint firstItem="hpY-oA-Zfj" firstAttribute="height" secondItem="ueV-DI-vOb" secondAttribute="height" id="eKq-sZ-thW"/>
+                            <constraint firstItem="69Z-rQ-aH0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fFk-jq-LzG"/>
+                            <constraint firstItem="TNz-XZ-5bW" firstAttribute="centerY" secondItem="ag7-Kz-C3Z" secondAttribute="centerY" id="fHo-WC-X9t"/>
+                            <constraint firstItem="CD2-KR-vfX" firstAttribute="width" secondItem="gnk-m6-7z4" secondAttribute="width" id="hEh-Jb-Aab"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mno-h6-frf" secondAttribute="trailing" id="hI0-jI-cDU"/>
+                            <constraint firstItem="pdw-8G-0A0" firstAttribute="width" secondItem="TNz-XZ-5bW" secondAttribute="width" id="hcv-QO-Lbc"/>
+                            <constraint firstItem="pdw-8G-0A0" firstAttribute="leading" secondItem="88d-7b-btY" secondAttribute="trailing" constant="8" symbolic="YES" id="o4u-Xu-NIt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mno-h6-frf" secondAttribute="bottom" constant="8" symbolic="YES" id="oFz-h3-QT9"/>
+                            <constraint firstItem="hpY-oA-Zfj" firstAttribute="centerY" secondItem="ueV-DI-vOb" secondAttribute="centerY" id="pQb-qW-2ET"/>
+                            <constraint firstItem="OKP-5P-wAx" firstAttribute="height" secondItem="88d-7b-btY" secondAttribute="height" id="ry4-XW-kG8"/>
+                            <constraint firstItem="TNz-XZ-5bW" firstAttribute="height" secondItem="ag7-Kz-C3Z" secondAttribute="height" id="sNP-yk-XU6"/>
+                            <constraint firstItem="69Z-rQ-aH0" firstAttribute="width" secondItem="CD2-KR-vfX" secondAttribute="width" id="sUq-Di-fTF"/>
+                            <constraint firstItem="OKP-5P-wAx" firstAttribute="centerY" secondItem="88d-7b-btY" secondAttribute="centerY" id="sr6-Oy-jza"/>
+                            <constraint firstItem="CD2-KR-vfX" firstAttribute="centerY" secondItem="gnk-m6-7z4" secondAttribute="centerY" id="v1I-vT-96A"/>
+                            <constraint firstItem="69Z-rQ-aH0" firstAttribute="height" secondItem="CD2-KR-vfX" secondAttribute="height" id="xNW-V1-jGC"/>
+                            <constraint firstItem="69Z-rQ-aH0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="zI3-1i-Aaw"/>
+                            <constraint firstItem="pdw-8G-0A0" firstAttribute="centerY" secondItem="TNz-XZ-5bW" secondAttribute="centerY" id="zYf-bo-EMT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fFk-jq-LzG"/>
+                                <exclude reference="Zaw-FZ-Ube"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Moves: 0    Time: 00:00" id="Q6K-zK-nYD">
+                        <barButtonItem key="leftBarButtonItem" title="New Game" id="Qlq-p6-SwW">
+                            <connections>
+                                <action selector="newGameButtonPressed:" destination="BYZ-38-t0r" id="yIR-Q7-8rd"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="⚙" id="Ia5-QC-tuq">
+                            <connections>
+                                <segue destination="vYK-4V-nVX" kind="popoverPresentation" popoverAnchorBarButtonItem="Ia5-QC-tuq" id="OPL-6P-j87">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="adBannerView" destination="KDI-0T-GBu" id="cwd-zG-wHa"/>
+                        <outlet property="cardStacksOnHoldPlaceHolder" destination="mno-h6-frf" id="z4I-0u-Upx"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="69Z-rQ-aH0" collectionClass="NSMutableArray" id="vdA-Jw-0AD"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="CD2-KR-vfX" collectionClass="NSMutableArray" id="JRX-v6-byh"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="gnk-m6-7z4" collectionClass="NSMutableArray" id="tvq-5p-VY2"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="OKP-5P-wAx" collectionClass="NSMutableArray" id="oIi-Xq-YSy"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="88d-7b-btY" collectionClass="NSMutableArray" id="4Hn-KD-bLz"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="pdw-8G-0A0" collectionClass="NSMutableArray" id="66Z-aq-EoH"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="TNz-XZ-5bW" collectionClass="NSMutableArray" id="toc-HR-lsN"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="ag7-Kz-C3Z" collectionClass="NSMutableArray" id="yqR-Ve-qD3"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="hpY-oA-Zfj" collectionClass="NSMutableArray" id="7sg-Rn-YMm"/>
+                        <outletCollection property="cardStacksDealedPlaceHolders" destination="ueV-DI-vOb" collectionClass="NSMutableArray" id="sJT-QF-zVe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1163" y="388"/>
+        </scene>
+        <!--Options View Controller-->
+        <scene sceneID="mLu-7T-NX4">
+            <objects>
+                <viewController id="vYK-4V-nVX" customClass="OptionsViewController" customModule="Spider_Solitaire" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pvI-rs-Jw6"/>
+                        <viewControllerLayoutGuide type="bottom" id="evD-KB-XDx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Id-hc-Q2i">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" translatesAutoresizingMaskIntoConstraints="NO" id="v1c-W8-5lN">
+                                <rect key="frame" x="20" y="59" width="560" height="29"/>
+                                <segments>
+                                    <segment title="1 Suit"/>
+                                    <segment title="2 Suits"/>
+                                    <segment title="4 Suits"/>
+                                </segments>
+                                <connections>
+                                    <action selector="numberOfSuitSegmentedControlValueChanged:" destination="vYK-4V-nVX" eventType="valueChanged" id="LJN-aY-geb"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of suits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f37-CC-AtD">
+                                <rect key="frame" x="20" y="28" width="560" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="a8X-iQ-NqM">
+                                <rect key="frame" x="20" y="126" width="560" height="29"/>
+                                <segments>
+                                    <segment title="Yes"/>
+                                    <segment title="No"/>
+                                </segments>
+                                <connections>
+                                    <action selector="showTutorialSegmentedControlValueChanged:" destination="vYK-4V-nVX" eventType="valueChanged" id="HPk-YT-aRT"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sound effects" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6n-ug-xqJ">
+                                <rect key="frame" x="20" y="162" width="560" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bXT-Va-Z1V">
+                                <rect key="frame" x="20" y="193" width="560" height="29"/>
+                                <segments>
+                                    <segment title="On"/>
+                                    <segment title="Off"/>
+                                </segments>
+                                <connections>
+                                    <action selector="soundEffectsSegmentedControlValueChanged:" destination="vYK-4V-nVX" eventType="valueChanged" id="wfW-62-M0n"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show tutorial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10m-Yu-hqw">
+                                <rect key="frame" x="20" y="95" width="560" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="10m-Yu-hqw" firstAttribute="top" secondItem="v1c-W8-5lN" secondAttribute="bottom" constant="8" symbolic="YES" id="6eQ-K6-bwM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="10m-Yu-hqw" secondAttribute="trailing" id="A5k-t5-gEI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="a8X-iQ-NqM" secondAttribute="trailing" id="DzF-f5-buh"/>
+                            <constraint firstItem="bXT-Va-Z1V" firstAttribute="leading" secondItem="3Id-hc-Q2i" secondAttribute="leadingMargin" id="HS0-7D-kdQ"/>
+                            <constraint firstItem="v1c-W8-5lN" firstAttribute="leading" secondItem="3Id-hc-Q2i" secondAttribute="leadingMargin" id="Il0-17-Urm"/>
+                            <constraint firstItem="bXT-Va-Z1V" firstAttribute="top" secondItem="k6n-ug-xqJ" secondAttribute="bottom" constant="8" symbolic="YES" id="KrK-lv-SFC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="v1c-W8-5lN" secondAttribute="trailing" id="Mys-xx-9m7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f37-CC-AtD" secondAttribute="trailing" id="SS2-GF-MaW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bXT-Va-Z1V" secondAttribute="trailing" id="W0s-GH-wAK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k6n-ug-xqJ" secondAttribute="trailing" id="bAc-wS-PhP"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="f37-CC-AtD" secondAttribute="leading" id="bzc-Al-Bmn"/>
+                            <constraint firstItem="k6n-ug-xqJ" firstAttribute="top" secondItem="a8X-iQ-NqM" secondAttribute="bottom" constant="8" symbolic="YES" id="fpL-4v-yH8"/>
+                            <constraint firstItem="a8X-iQ-NqM" firstAttribute="leading" secondItem="3Id-hc-Q2i" secondAttribute="leadingMargin" id="hfn-05-YVy"/>
+                            <constraint firstItem="a8X-iQ-NqM" firstAttribute="top" secondItem="10m-Yu-hqw" secondAttribute="bottom" constant="8" symbolic="YES" id="itg-Gr-5PT"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="k6n-ug-xqJ" secondAttribute="leading" id="jV2-Uy-ZeB"/>
+                            <constraint firstItem="f37-CC-AtD" firstAttribute="top" secondItem="pvI-rs-Jw6" secondAttribute="bottom" constant="8" symbolic="YES" id="nhM-eU-QBX"/>
+                            <constraint firstItem="v1c-W8-5lN" firstAttribute="top" secondItem="f37-CC-AtD" secondAttribute="bottom" constant="8" symbolic="YES" id="sLo-OE-VIt"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="10m-Yu-hqw" secondAttribute="leading" id="scg-3r-KtQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="numberOfSuitsSegmentedControl" destination="v1c-W8-5lN" id="t74-Yq-XzH"/>
+                        <outlet property="showTutorialSegmentedControl" destination="a8X-iQ-NqM" id="yeo-vT-snX"/>
+                        <outlet property="soundEffectsSegmentedControl" destination="bXT-Va-Z1V" id="Ddg-xg-RwT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ERZ-KE-s4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1977" y="388"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ga6-Yn-4qg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fbO-3M-gzo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SIc-Iu-j57">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OWy-pY-FG1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZi-T9-3WQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351" y="388"/>
+        </scene>
+    </scenes>
+</document>

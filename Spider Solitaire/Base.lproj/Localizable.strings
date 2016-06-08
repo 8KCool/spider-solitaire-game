@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  Spider Solitaire
+
+  Created by Yanbing Peng on 10/05/16.
+  Copyright © 2016 Yanbing Peng. All rights reserved.
+*/
+
+"AlertNewGameTitle" = "New Game";
+"AlertNewGameMessage" = "Start over?";
+"AlertNewGameRestartButton" = "Restart";
+"AlertNewGameCancelButton" = "Cancel";
+
+"PageTitleMove" = "Move";
+"PageTitleTime" = "Time";
+
+"AlertWinTitle" = "Congratulation";
+"AlertWinMessage" = "You win!";
+"AlertWinCancelButton" = "OK";
+
+"AlertWarningTitle" = "Warning";
+"AlertWarningMessage" = "You cannot deal a new row while any columns are empty";
+"AlertWarningCancelButton" = "OK";
+
+"AlertTutorialTitle" = "How to play";
+"AlertTutorialMessage1" = "The goal is to organize the cards in descending order from king to ace.";
+"AlertTutorialMessage2" = "For multiple suits game, the descending cards need to have the same suit to be considered as complete runs.";
+"AlertTutorialMessage3" = "The cards can be moved between columns as long as they stack in the proper sequence.";
+"AlertTutorialMessage4" = "Any card can be place on an empty column";
+"AlertTutorialMessage5" = "If you run out of moves, tap on the stockpiles in the lower-right corner to deal a new row of cards. You cannot deal a new row while any columns are empty.";
+"AlertTutorialCloseButton" = "Close";
+"AlertTutorialBackButton" = "Back";
+"AlertTutorialNextButton" = "Next";
+"AlertTutorialNotShowAgainButton" = "Do not show again";

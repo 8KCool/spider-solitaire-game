@@ -1,0 +1,6 @@
+framework module Pods_Spider_SolitaireTests {
+  umbrella header "Pods-Spider SolitaireTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

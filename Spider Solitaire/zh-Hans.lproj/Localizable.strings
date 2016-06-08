@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  Spider Solitaire
+
+  Created by Yanbing Peng on 10/05/16.
+  Copyright © 2016 Yanbing Peng. All rights reserved.
+*/
+
+"AlertNewGameTitle" = "新游戏";
+"AlertNewGameMessage" = "重新开始?";
+"AlertNewGameRestartButton" = "重来";
+"AlertNewGameCancelButton" = "取消";
+
+"PageTitleMove" = "移动";
+"PageTitleTime" = "时间";
+
+"AlertWinTitle" = "恭喜";
+"AlertWinMessage" = "你赢了!";
+"AlertWinCancelButton" = "好的";
+
+"AlertWarningTitle" = "提示";
+"AlertWarningMessage" = "台面上有空位的情况下无法继续发牌";
+"AlertWarningCancelButton" = "好的";
+
+"AlertTutorialTitle" = "玩法介绍";
+"AlertTutorialMessage1" = "目标是把牌按K到A的顺序排好。";
+"AlertTutorialMessage2" = "在多花色的游戏中，倒序排好的牌需要是同种花色才算完成。";
+"AlertTutorialMessage3" = "牌可以在竖排之间移动，只要挪到的位置形成倒序排列";
+"AlertTutorialMessage4" = "竖排形成空位是，任何牌都可以放在上边。";
+"AlertTutorialMessage5" = "如果无路可走时，可以点击右下角的牌堆继续发牌。但是如果竖排有空位子时则不能继续发牌。";
+"AlertTutorialCloseButton" = "关闭";
+"AlertTutorialBackButton" = "上一条";
+"AlertTutorialNextButton" = "下一条";
+"AlertTutorialNotShowAgainButton" = "不再显示";

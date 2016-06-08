@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20799BA06F32E66F5C276422 /* Pods_Spider_SolitaireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63F035D6A2A8EE30C5FB94 /* Pods_Spider_SolitaireTests.framework */; };
+		24140026E45D8F7FEFC81BC2 /* Pods_Spider_Solitaire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD4AE61618CAFEF58AF3D5C /* Pods_Spider_Solitaire.framework */; };
+		AAE99B3B6ACF9A44B1AA0DE6 /* Pods_Spider_SolitaireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5DA4294D8882DDFCD9DC7E /* Pods_Spider_SolitaireUITests.framework */; };
+		B810FFE31CBCF196002E9A60 /* PokerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810FFE21CBCF196002E9A60 /* PokerCard.swift */; };
+		B810FFE51CBCF346002E9A60 /* EnumsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810FFE41CBCF346002E9A60 /* EnumsAndConstants.swift */; };
+		B810FFE71CBCF439002E9A60 /* SpiderSolitaireGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810FFE61CBCF439002E9A60 /* SpiderSolitaireGameModel.swift */; };
+		B8660D271CDF387A00BCB708 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8660D261CDF387A00BCB708 /* OptionsViewController.swift */; };
+		B87AE45A1CD948A6001E22A2 /* PokerViewMoveDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AE4591CD948A6001E22A2 /* PokerViewMoveDelegate.swift */; };
+		B88B41601CBA63D700C86AA3 /* PokerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88B415F1CBA63D700C86AA3 /* PokerView.xib */; };
+		B89EDEDD1CE1D80B0043790A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B89EDEDF1CE1D80B0043790A /* InfoPlist.strings */; };
+		B89EDEE21CE1E34C0043790A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B89EDEE41CE1E34C0043790A /* Localizable.strings */; };
+		B8CE5B2E1CBA43DA00E4B35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE5B2D1CBA43DA00E4B35B /* AppDelegate.swift */; };
+		B8CE5B301CBA43DA00E4B35B /* SpiderSolitaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE5B2F1CBA43DA00E4B35B /* SpiderSolitaireViewController.swift */; };
+		B8CE5B331CBA43DA00E4B35B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE5B311CBA43DA00E4B35B /* Main.storyboard */; };
+		B8CE5B351CBA43DB00E4B35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CE5B341CBA43DB00E4B35B /* Assets.xcassets */; };
+		B8CE5B381CBA43DB00E4B35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE5B361CBA43DB00E4B35B /* LaunchScreen.storyboard */; };
+		B8CE5B431CBA43DB00E4B35B /* Spider_SolitaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE5B421CBA43DB00E4B35B /* Spider_SolitaireTests.swift */; };
+		B8CE5B4E1CBA43DB00E4B35B /* Spider_SolitaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE5B4D1CBA43DB00E4B35B /* Spider_SolitaireUITests.swift */; };
+		B8CE5B621CBA516300E4B35B /* PokerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE5B611CBA516300E4B35B /* PokerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8CE5B3F1CBA43DB00E4B35B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CE5B221CBA43DA00E4B35B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CE5B291CBA43DA00E4B35B;
+			remoteInfo = "Spider Solitaire";
+		};
+		B8CE5B4A1CBA43DB00E4B35B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CE5B221CBA43DA00E4B35B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CE5B291CBA43DA00E4B35B;
+			remoteInfo = "Spider Solitaire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAF02D95B67C1F68DD90D4E /* Pods-Spider Solitaire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spider Solitaire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spider Solitaire/Pods-Spider Solitaire.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE39AE86FC47C4EC3012DA0 /* Pods-Spider SolitaireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spider SolitaireUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spider SolitaireUITests/Pods-Spider SolitaireUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5DA4294D8882DDFCD9DC7E /* Pods_Spider_SolitaireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spider_SolitaireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7DE6B63B35E568E34D149E /* Pods-Spider SolitaireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spider SolitaireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spider SolitaireTests/Pods-Spider SolitaireTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AD4AE61618CAFEF58AF3D5C /* Pods_Spider_Solitaire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spider_Solitaire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E63F035D6A2A8EE30C5FB94 /* Pods_Spider_SolitaireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spider_SolitaireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C20A009EE94E19BCD58430C /* Pods-Spider Solitaire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spider Solitaire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spider Solitaire/Pods-Spider Solitaire.release.xcconfig"; sourceTree = "<group>"; };
+		AA143275B5AF0B4269B5E72D /* Pods-Spider SolitaireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spider SolitaireUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spider SolitaireUITests/Pods-Spider SolitaireUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B810FFE21CBCF196002E9A60 /* PokerCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerCard.swift; sourceTree = "<group>"; };
+		B810FFE41CBCF346002E9A60 /* EnumsAndConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumsAndConstants.swift; sourceTree = "<group>"; };
+		B810FFE61CBCF439002E9A60 /* SpiderSolitaireGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiderSolitaireGameModel.swift; sourceTree = "<group>"; };
+		B8660D261CDF387A00BCB708 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		B87AE4591CD948A6001E22A2 /* PokerViewMoveDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerViewMoveDelegate.swift; sourceTree = "<group>"; };
+		B88B415F1CBA63D700C86AA3 /* PokerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokerView.xib; sourceTree = "<group>"; };
+		B89EDEDA1CE1D77D0043790A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		B89EDEDE1CE1D80B0043790A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B89EDEE31CE1E34C0043790A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B89EDEE51CE1E3570043790A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B8CE5B2A1CBA43DA00E4B35B /* Spider Solitaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spider Solitaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CE5B2D1CBA43DA00E4B35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8CE5B2F1CBA43DA00E4B35B /* SpiderSolitaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderSolitaireViewController.swift; sourceTree = "<group>"; };
+		B8CE5B321CBA43DA00E4B35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8CE5B341CBA43DB00E4B35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8CE5B371CBA43DB00E4B35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8CE5B391CBA43DB00E4B35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CE5B3E1CBA43DB00E4B35B /* Spider SolitaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spider SolitaireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CE5B421CBA43DB00E4B35B /* Spider_SolitaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spider_SolitaireTests.swift; sourceTree = "<group>"; };
+		B8CE5B441CBA43DB00E4B35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CE5B491CBA43DB00E4B35B /* Spider SolitaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spider SolitaireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CE5B4D1CBA43DB00E4B35B /* Spider_SolitaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spider_SolitaireUITests.swift; sourceTree = "<group>"; };
+		B8CE5B4F1CBA43DB00E4B35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CE5B611CBA516300E4B35B /* PokerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerView.swift; sourceTree = "<group>"; };
+		E610AD531A297D2835DF8B18 /* Pods-Spider SolitaireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spider SolitaireTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spider SolitaireTests/Pods-Spider SolitaireTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8CE5B271CBA43DA00E4B35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24140026E45D8F7FEFC81BC2 /* Pods_Spider_Solitaire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CE5B3B1CBA43DB00E4B35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20799BA06F32E66F5C276422 /* Pods_Spider_SolitaireTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CE5B461CBA43DB00E4B35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE99B3B6ACF9A44B1AA0DE6 /* Pods_Spider_SolitaireUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35058B1A460907E0892EA195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD4AE61618CAFEF58AF3D5C /* Pods_Spider_Solitaire.framework */,
+				8E63F035D6A2A8EE30C5FB94 /* Pods_Spider_SolitaireTests.framework */,
+				3D5DA4294D8882DDFCD9DC7E /* Pods_Spider_SolitaireUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B810FFE11CBCF17D002E9A60 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B810FFE21CBCF196002E9A60 /* PokerCard.swift */,
+				B810FFE41CBCF346002E9A60 /* EnumsAndConstants.swift */,
+				B87AE4591CD948A6001E22A2 /* PokerViewMoveDelegate.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		B8CE5B211CBA43DA00E4B35B = {
+			isa = PBXGroup;
+			children = (
+				B8CE5B2C1CBA43DA00E4B35B /* Spider Solitaire */,
+				B8CE5B411CBA43DB00E4B35B /* Spider SolitaireTests */,
+				B8CE5B4C1CBA43DB00E4B35B /* Spider SolitaireUITests */,
+				B8CE5B2B1CBA43DA00E4B35B /* Products */,
+				F66A9411FE046269C8EFD4D0 /* Pods */,
+				35058B1A460907E0892EA195 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8CE5B2B1CBA43DA00E4B35B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE5B2A1CBA43DA00E4B35B /* Spider Solitaire.app */,
+				B8CE5B3E1CBA43DB00E4B35B /* Spider SolitaireTests.xctest */,
+				B8CE5B491CBA43DB00E4B35B /* Spider SolitaireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8CE5B2C1CBA43DA00E4B35B /* Spider Solitaire */ = {
+			isa = PBXGroup;
+			children = (
+				B810FFE11CBCF17D002E9A60 /* Class */,
+				B8CE5B5E1CBA489B00E4B35B /* Model */,
+				B8CE5B5D1CBA489500E4B35B /* View */,
+				B8CE5B5C1CBA486500E4B35B /* Controller */,
+				B8CE5B5B1CBA485900E4B35B /* Supporting Files */,
+			);
+			path = "Spider Solitaire";
+			sourceTree = "<group>";
+		};
+		B8CE5B411CBA43DB00E4B35B /* Spider SolitaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE5B421CBA43DB00E4B35B /* Spider_SolitaireTests.swift */,
+				B8CE5B441CBA43DB00E4B35B /* Info.plist */,
+			);
+			path = "Spider SolitaireTests";
+			sourceTree = "<group>";
+		};
+		B8CE5B4C1CBA43DB00E4B35B /* Spider SolitaireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE5B4D1CBA43DB00E4B35B /* Spider_SolitaireUITests.swift */,
+				B8CE5B4F1CBA43DB00E4B35B /* Info.plist */,
+			);
+			path = "Spider SolitaireUITests";
+			sourceTree = "<group>";
+		};
+		B8CE5B5B1CBA485900E4B35B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE5B2D1CBA43DA00E4B35B /* AppDelegate.swift */,
+				B8CE5B341CBA43DB00E4B35B /* Assets.xcassets */,
+				B8CE5B361CBA43DB00E4B35B /* LaunchScreen.storyboard */,
+				B8CE5B391CBA43DB00E4B35B /* Info.plist */,
+				B89EDEDF1CE1D80B0043790A /* InfoPlist.strings */,
+				B89EDEE41CE1E34C0043790A /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8CE5B5C1CBA486500E4B35B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE5B2F1CBA43DA00E4B35B /* SpiderSolitaireViewController.swift */,
+				B8660D261CDF387A00BCB708 /* OptionsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B8CE5B5D1CBA489500E4B35B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE5B311CBA43DA00E4B35B /* Main.storyboard */,
+				B8CE5B611CBA516300E4B35B /* PokerView.swift */,
+				B88B415F1CBA63D700C86AA3 /* PokerView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B8CE5B5E1CBA489B00E4B35B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B810FFE61CBCF439002E9A60 /* SpiderSolitaireGameModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F66A9411FE046269C8EFD4D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FAF02D95B67C1F68DD90D4E /* Pods-Spider Solitaire.debug.xcconfig */,
+				9C20A009EE94E19BCD58430C /* Pods-Spider Solitaire.release.xcconfig */,
+				E610AD531A297D2835DF8B18 /* Pods-Spider SolitaireTests.debug.xcconfig */,
+				3D7DE6B63B35E568E34D149E /* Pods-Spider SolitaireTests.release.xcconfig */,
+				2EE39AE86FC47C4EC3012DA0 /* Pods-Spider SolitaireUITests.debug.xcconfig */,
+				AA143275B5AF0B4269B5E72D /* Pods-Spider SolitaireUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8CE5B291CBA43DA00E4B35B /* Spider Solitaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CE5B521CBA43DB00E4B35B /* Build configuration list for PBXNativeTarget "Spider Solitaire" */;
+			buildPhases = (
+				39A4315A3F640F470B5F79A1 /* 📦 Check Pods Manifest.lock */,
+				B8CE5B261CBA43DA00E4B35B /* Sources */,
+				B8CE5B271CBA43DA00E4B35B /* Frameworks */,
+				B8CE5B281CBA43DA00E4B35B /* Resources */,
+				3D4167FC25EE5F8141D43F06 /* 📦 Embed Pods Frameworks */,
+				A616B32B913FBDFA6ED5377D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spider Solitaire";
+			productName = "Spider Solitaire";
+			productReference = B8CE5B2A1CBA43DA00E4B35B /* Spider Solitaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8CE5B3D1CBA43DB00E4B35B /* Spider SolitaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CE5B551CBA43DB00E4B35B /* Build configuration list for PBXNativeTarget "Spider SolitaireTests" */;
+			buildPhases = (
+				A13137EB53F56A2640A5DD5C /* 📦 Check Pods Manifest.lock */,
+				B8CE5B3A1CBA43DB00E4B35B /* Sources */,
+				B8CE5B3B1CBA43DB00E4B35B /* Frameworks */,
+				B8CE5B3C1CBA43DB00E4B35B /* Resources */,
+				7FEA893301E11A94B2D2619D /* 📦 Embed Pods Frameworks */,
+				BA28692663C61721755C43D5 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8CE5B401CBA43DB00E4B35B /* PBXTargetDependency */,
+			);
+			name = "Spider SolitaireTests";
+			productName = "Spider SolitaireTests";
+			productReference = B8CE5B3E1CBA43DB00E4B35B /* Spider SolitaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8CE5B481CBA43DB00E4B35B /* Spider SolitaireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CE5B581CBA43DB00E4B35B /* Build configuration list for PBXNativeTarget "Spider SolitaireUITests" */;
+			buildPhases = (
+				28C4F8CED72CD8DC88C9B371 /* 📦 Check Pods Manifest.lock */,
+				B8CE5B451CBA43DB00E4B35B /* Sources */,
+				B8CE5B461CBA43DB00E4B35B /* Frameworks */,
+				B8CE5B471CBA43DB00E4B35B /* Resources */,
+				4142337802623703D511ED2C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8CE5B4B1CBA43DB00E4B35B /* PBXTargetDependency */,
+			);
+			name = "Spider SolitaireUITests";
+			productName = "Spider SolitaireUITests";
+			productReference = B8CE5B491CBA43DB00E4B35B /* Spider SolitaireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8CE5B221CBA43DA00E4B35B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yanbing Peng";
+				TargetAttributes = {
+					B8CE5B291CBA43DA00E4B35B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FX3X9EUZ62;
+					};
+					B8CE5B3D1CBA43DB00E4B35B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B8CE5B291CBA43DA00E4B35B;
+					};
+					B8CE5B481CBA43DB00E4B35B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B8CE5B291CBA43DA00E4B35B;
+					};
+				};
+			};
+			buildConfigurationList = B8CE5B251CBA43DA00E4B35B /* Build configuration list for PBXProject "Spider Solitaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8CE5B211CBA43DA00E4B35B;
+			productRefGroup = B8CE5B2B1CBA43DA00E4B35B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8CE5B291CBA43DA00E4B35B /* Spider Solitaire */,
+				B8CE5B3D1CBA43DB00E4B35B /* Spider SolitaireTests */,
+				B8CE5B481CBA43DB00E4B35B /* Spider SolitaireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CE5B281CBA43DA00E4B35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CE5B381CBA43DB00E4B35B /* LaunchScreen.storyboard in Resources */,
+				B89EDEE21CE1E34C0043790A /* Localizable.strings in Resources */,
+				B8CE5B351CBA43DB00E4B35B /* Assets.xcassets in Resources */,
+				B88B41601CBA63D700C86AA3 /* PokerView.xib in Resources */,
+				B8CE5B331CBA43DA00E4B35B /* Main.storyboard in Resources */,
+				B89EDEDD1CE1D80B0043790A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CE5B3C1CBA43DB00E4B35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CE5B471CBA43DB00E4B35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28C4F8CED72CD8DC88C9B371 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39A4315A3F640F470B5F79A1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4167FC25EE5F8141D43F06 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spider Solitaire/Pods-Spider Solitaire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4142337802623703D511ED2C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spider SolitaireUITests/Pods-Spider SolitaireUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FEA893301E11A94B2D2619D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spider SolitaireTests/Pods-Spider SolitaireTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13137EB53F56A2640A5DD5C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A616B32B913FBDFA6ED5377D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spider Solitaire/Pods-Spider Solitaire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA28692663C61721755C43D5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spider SolitaireTests/Pods-Spider SolitaireTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8CE5B261CBA43DA00E4B35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CE5B301CBA43DA00E4B35B /* SpiderSolitaireViewController.swift in Sources */,
+				B8660D271CDF387A00BCB708 /* OptionsViewController.swift in Sources */,
+				B810FFE31CBCF196002E9A60 /* PokerCard.swift in Sources */,
+				B87AE45A1CD948A6001E22A2 /* PokerViewMoveDelegate.swift in Sources */,
+				B810FFE51CBCF346002E9A60 /* EnumsAndConstants.swift in Sources */,
+				B810FFE71CBCF439002E9A60 /* SpiderSolitaireGameModel.swift in Sources */,
+				B8CE5B2E1CBA43DA00E4B35B /* AppDelegate.swift in Sources */,
+				B8CE5B621CBA516300E4B35B /* PokerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CE5B3A1CBA43DB00E4B35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CE5B431CBA43DB00E4B35B /* Spider_SolitaireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CE5B451CBA43DB00E4B35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CE5B4E1CBA43DB00E4B35B /* Spider_SolitaireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8CE5B401CBA43DB00E4B35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CE5B291CBA43DA00E4B35B /* Spider Solitaire */;
+			targetProxy = B8CE5B3F1CBA43DB00E4B35B /* PBXContainerItemProxy */;
+		};
+		B8CE5B4B1CBA43DB00E4B35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CE5B291CBA43DA00E4B35B /* Spider Solitaire */;
+			targetProxy = B8CE5B4A1CBA43DB00E4B35B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B89EDEDF1CE1D80B0043790A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89EDEDE1CE1D80B0043790A /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B89EDEE41CE1E34C0043790A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89EDEE31CE1E34C0043790A /* zh-Hans */,
+				B89EDEE51CE1E3570043790A /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B8CE5B311CBA43DA00E4B35B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CE5B321CBA43DA00E4B35B /* Base */,
+				B89EDEDA1CE1D77D0043790A /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8CE5B361CBA43DB00E4B35B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CE5B371CBA43DB00E4B35B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8CE5B501CBA43DB00E4B35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8CE5B511CBA43DB00E4B35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8CE5B531CBA43DB00E4B35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAF02D95B67C1F68DD90D4E /* Pods-Spider Solitaire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Spider Solitaire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pengyanb.Spider-Solitaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8CE5B541CBA43DB00E4B35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C20A009EE94E19BCD58430C /* Pods-Spider Solitaire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Spider Solitaire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pengyanb.Spider-Solitaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8CE5B561CBA43DB00E4B35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E610AD531A297D2835DF8B18 /* Pods-Spider SolitaireTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spider SolitaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pengyanb.Spider-SolitaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spider Solitaire.app/Spider Solitaire";
+			};
+			name = Debug;
+		};
+		B8CE5B571CBA43DB00E4B35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7DE6B63B35E568E34D149E /* Pods-Spider SolitaireTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spider SolitaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pengyanb.Spider-SolitaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spider Solitaire.app/Spider Solitaire";
+			};
+			name = Release;
+		};
+		B8CE5B591CBA43DB00E4B35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE39AE86FC47C4EC3012DA0 /* Pods-Spider SolitaireUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Spider SolitaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pengyanb.Spider-SolitaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spider Solitaire";
+			};
+			name = Debug;
+		};
+		B8CE5B5A1CBA43DB00E4B35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA143275B5AF0B4269B5E72D /* Pods-Spider SolitaireUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Spider SolitaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pengyanb.Spider-SolitaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spider Solitaire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8CE5B251CBA43DA00E4B35B /* Build configuration list for PBXProject "Spider Solitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE5B501CBA43DB00E4B35B /* Debug */,
+				B8CE5B511CBA43DB00E4B35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CE5B521CBA43DB00E4B35B /* Build configuration list for PBXNativeTarget "Spider Solitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE5B531CBA43DB00E4B35B /* Debug */,
+				B8CE5B541CBA43DB00E4B35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CE5B551CBA43DB00E4B35B /* Build configuration list for PBXNativeTarget "Spider SolitaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE5B561CBA43DB00E4B35B /* Debug */,
+				B8CE5B571CBA43DB00E4B35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CE5B581CBA43DB00E4B35B /* Build configuration list for PBXNativeTarget "Spider SolitaireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE5B591CBA43DB00E4B35B /* Debug */,
+				B8CE5B5A1CBA43DB00E4B35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8CE5B221CBA43DA00E4B35B /* Project object */;
+}

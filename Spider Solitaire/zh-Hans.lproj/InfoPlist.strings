@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Spider Solitaire
+
+  Created by Yanbing Peng on 10/05/16.
+  Copyright © 2016 Yanbing Peng. All rights reserved.
+*/
+
+//"CFBundleName" = "蜘蛛纸牌"；
+
+"CFBundleDisplayName" = "蜘蛛纸牌";
